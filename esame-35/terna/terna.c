@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 bool is_terna_pitagorica(unsigned int v[3]) {
-	char max_index = 0;
+	int max_index = 0;
 
 	for (int i = 0; i < 3; i++) {
 		if (v[i] > v[max_index]) {
